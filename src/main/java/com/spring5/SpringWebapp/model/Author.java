@@ -32,6 +32,10 @@ public class Author {
         this.books = books;
     }
 
+    public Long getId() {
+        return id;
+    }
+
     public String getFirstName() {
         return firstName;
     }
